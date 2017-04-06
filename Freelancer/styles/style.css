@@ -1,0 +1,269 @@
+/* Добавление шрифтов */
+@font-face{
+	font-family: Domine bold;
+	src: url(../fonts/Domine_Bold.ttf);
+}
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans.ttf);
+}
+@font-face{
+	font-family: OpenSans bold;
+	src: url(../fonts/OpenSans_bold.ttf);
+}
+@font-face{
+	font-family: Montserrat bold;
+	src: url(../fonts/Montserrat_Bold.ttf);
+}
+@font-face{
+	font-family: Montserrat regular;
+	src: url(../fonts/Montserrat_Regular.ttf);
+}
+/* Общее для всего документа */
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: auto;
+}
+html{
+	height: 100%;
+}
+#content{
+	position: relative;
+	min-height: 100%;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+p{
+	font-family: OpenSans;
+}
+/* Шапка сайта */
+.top{
+	background: url(../img/fon_top.png) no-repeat;
+	height: 1057px;
+	overflow: auto;
+	position: relative;
+}
+.top .logo, .top .menu{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.top .logo span{
+	background: #fa5c65;
+	display: inline-block;
+	border-radius: 0 0 8px 8px;
+	color: #fff;
+	font-size: 15pt;
+	font-family: Domine bold;
+	line-height: 100px;
+	width: 140px;
+	height: 74px;
+}
+.top .logo span:after{
+	content: '.';
+	color: #314a5b;
+}
+.top .menu li{
+	float: left;
+	margin-left: 39px;
+	margin-top: 22px;
+}
+.top .menu .icons_facebook{
+	margin-left: 23px;
+	margin-top: 24px;
+}
+.top .menu .icons_twitter{
+	margin-left: 32px;
+	margin-top: 25px;
+}
+.top .menu a{
+	color: #263742;
+	font-family: Montserrat regular;
+	font-size: 10pt;
+}
+.top .menu a:hover{
+	color: #0074be;
+}
+.top .slogan{
+	clear: both;
+	position: absolute;
+	top: 372px;
+	left: 223px;
+	color: #314a5b;
+}
+.top .slogan h1{
+	font-family: Montserrat bold;
+	font-size: 35pt;
+	line-height: 53px;
+	margin: 0;
+}
+.top .slogan h1:after{
+	content: '.';
+	color: #fa5c65;
+}
+.top .slogan p{
+	font-size: 15pt;
+	margin: 12px 0 0;
+}
+.top .button{
+	position: absolute;
+	top: 610px;
+	left: 223px;
+}
+.top .button a{
+	display: block;
+	color: #fff;
+	font-family: OpenSans bold;
+	width: 171px;
+	height: 64px;
+	background: #fa5c65;
+	color: #fff;
+	border-radius: 8px;
+	line-height: 64px;
+	text-align: center;
+}
+.top .button a:hover{
+	background: #bf001f;
+}
+/* Основная часть сайта */
+.content, .portfolio, .team, .snippets{
+	overflow: auto;
+}
+.content{
+	width: 75%;
+	margin: auto;
+	padding-bottom: 182px;
+}
+.content .snippets div:nth-of-type(2n+1) h2:after, .content .snippets span:after, .content .our_team h2:nth-child(1):after, .content .portfolio h2:after{
+	content: '.';
+	color: #f0454c;
+}
+.content .snippets div{
+	float: left;
+	width: 28%;
+	margin: 60px 0 108px 5.5%;
+}
+.content .snippets div:first-child{
+	margin-left: 0;
+}
+.content .snippets h2{
+	font-family: Montserrat bold;
+	color: #465065;
+}
+.content .snippets p{
+	margin-bottom: 23px;
+}
+.content .snippets p, .content .portfolio p{
+	color: #9aa0ab;
+	font-size: 11pt;
+}
+.content .more{
+	font-family: Montserrat regular;
+	color: #fa5c65;
+	font-size: 11pt;
+}
+.content .more img{
+	margin-left: 8px;
+}
+.content .our_team .more{
+	margin: 50px 12px 0 0;
+}
+.content .portfolio{
+	margin-bottom: 105px;
+}
+.content .portfolio img:not([alt='']), .content .portfolio div{
+	float: left;	
+}
+.content .portfolio div{
+	width: 39%;
+}
+.content .portfolio h2{
+	margin: 5px 0 4px -2px;
+	font-family: Montserrat bold;
+	color: #314a5b;
+	font-size: 30pt;
+}
+.content .portfolio p{
+	margin: 0 0 32px;
+}
+.content .portfolio p:first-of-type{
+	color: #314a5b;
+	margin: 0 0 24px;
+	font-weight: bold;
+}
+.content .portfolio div{
+	margin-left: 88px;
+}
+.content .our_team h2{
+	font-family: Montserrat bold;
+	color: #314a5b;
+	margin: 0;
+}
+.content .our_team h2:first-child{
+	font-size: 25pt;
+}
+.content .our_team p{
+	color: #9aa0ab;
+	margin-top: 7px;
+}
+.content .our_team a{
+	float: right;
+}
+.content .team div{
+	float: left;
+	width: 30%;
+	margin-left: 35px;
+}
+.content .team div:first-child{
+	margin-left: 0;
+}
+.content .team img{
+	float: left;
+	margin-right: 30px;
+}
+.content .team h2{
+	margin-top: 10px;
+}
+.content .team p{
+	font-size: 10.5pt;
+}
+.content .team p:first-of-type{
+	color: #f0454c;
+	margin: 2px 0;
+	font-size: 11pt;
+}
+/* Подвал сайта */
+.footer{
+	width: 75%;
+	border-top: 1px solid #e6eaed;
+	position: absolute;
+	left: 12.5%;
+	bottom: 0;
+	height: 80px;
+}
+.footer div{
+	margin-top: 30px;
+	overflow: auto;
+}
+.footer li{
+	float: left;
+	margin-right: 23px;
+}
+.footer ul{
+	float: left;
+}
+.footer p{
+	float: right;
+	margin: 0;
+	color: #b9c0c6;
+	font-size: 10pt;
+}
