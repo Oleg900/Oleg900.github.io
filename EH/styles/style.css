@@ -8,7 +8,7 @@
 }
 @font-face{
 	font-family: eras_demi_itc;
-	src: url(../fonts/eras_demi_itc.ttf);
+	src: url(../fonts/eras_demi_itc.TTF);
 }
 @font-face{
 	font-family: roboto_condensed;
@@ -130,7 +130,7 @@ nav a:hover{
 	margin: auto;
 	min-height: 300px;
 	max-height: 603px;
-	background: url(../img/top_fon.png) no-repeat center;
+	background: url(../img/top_fon.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
 }
@@ -339,7 +339,7 @@ nav a:hover{
 	margin: 53px auto 0;
 	min-height: 333px;
 	max-height: 603px;
-	background: url(../img/body_fon.png) no-repeat center;
+	background: url(../img/body_fon.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;
 }
