@@ -17,6 +17,15 @@
 .categories a, .cart .checkout{
 	cursor: pointer;
 }
+.product a{
+	cursor: pointer;
+}
+.product .frame{
+	width: auto;
+}
+.product:hover .frame{
+	width: auto;
+}
 .product .discount{
 	background: url(../img/fon.png);
 	text-align: center;
