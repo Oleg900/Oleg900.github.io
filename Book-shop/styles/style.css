@@ -92,6 +92,7 @@ img{
 	border-bottom: 1px solid #cecece;
 }
 .logo{
+	width: auto;
 	float: left;
 	margin-top: 20px;
 }
