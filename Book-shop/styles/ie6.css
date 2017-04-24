@@ -1,0 +1,72 @@
+*{
+	position: relative;	
+}
+.all{
+	height: 100%;
+}
+.search span{
+	margin-bottom: 1px;
+}
+.search input{
+	background: url(../img/search.png) no-repeat left center #79b260;
+	border: 4px solid #79b260;
+	border-radius: 0 3px 3px 0;
+	color: #fff;
+	height: 40px;
+	line-height: 27px;
+	text-indent: 28px;
+	cursor: pointer;
+	max-width: 214px;
+}
+.search span input{
+	background: #fff;
+	color: #000;
+	height: 32px;
+	border: none;
+	width: 323px;
+	padding-left: 5px;
+	text-indent: 0;
+	cursor: default;
+	margin-top: 3px;
+	border-radius: 3px;
+}
+.nav a{
+	float: left;
+	border-bottom: 1px solid #fff;
+}
+.wish_list a{
+	margin-left: 16px;
+}
+.cart .checkout span{
+	border-color: #666 #232323 #232323 #666;
+}
+.categories a, .categories a span{
+	height: 26px;
+}
+.categories a:hover span{
+	border-color: #7cb763;
+}
+.product{
+	margin: 0 20px 32px;
+}
+.product .discount{
+	background: #f05356;
+}
+.pagination li{
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.pagination a{
+	border: 1px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+.pagination a:hover{
+	border-color: #e0e0e0;
+	border-bottom-color: #81bd66;
+}
+.footer_category{
+	float: left;
+	width: 200px;
+	margin-right: 40px;
+}
+

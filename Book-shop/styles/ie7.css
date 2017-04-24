@@ -1,0 +1,29 @@
+.nav li{
+	display: block;
+	float: left;
+}
+.nav a{
+	padding: 0 19px;
+	width: auto;
+}
+.search input[type=text]{
+	border: 0;
+	margin-top: 3px;
+}
+.search input[type=submit]{
+	margin-bottom: -1px;
+	text-indent: 12px;
+}
+.categories a, .cart .checkout{
+	cursor: pointer;
+}
+.product .discount{
+	background: url(../img/fon.png);
+	text-align: center;
+}
+.product p, .product .price{
+	text-align: center;
+}
+
+
+

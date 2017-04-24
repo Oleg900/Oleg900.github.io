@@ -1,0 +1,32 @@
+body{
+	font: 15px Arial;
+}
+.header .mid{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ebebeb', GradientType=0);
+}
+.search input{
+	line-height: 30px;
+}
+.cart .checkout{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#252525', GradientType=0);
+}
+.border{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cacaca', endColorstr='#bebebe', GradientType=0);
+}
+.nav a:hover{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#92d774', endColorstr='#7ab361', GradientType=0);
+}
+.categories a:hover{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#92d774', endColorstr='#79b360', GradientType=0);
+}
+.product .discount{
+	background: url(../img/fon.png);
+}
+.footer_category a{
+	color: rgb(221, 221, 221);
+	border-bottom: 1px solid rgb(87, 85, 81);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+.footer .mid{
+	border-bottom: 1px solid rgb(86, 82, 84);
+}
