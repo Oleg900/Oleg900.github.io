@@ -49,6 +49,9 @@
 .product{
 	margin: 0 20px 32px;
 }
+.product .frame{
+	height: 148px;
+}
 .product .discount{
 	background: #f05356;
 }
