@@ -51,7 +51,7 @@ img{
 	clear: both;
 }
 .content{
-	width: 954px;
+	width: 1110px;
 	padding: 0 10px;
 	margin: auto;
 }
@@ -151,12 +151,12 @@ nav a:hover{
 }
 .call_us .call{
 	float: left;
-	font: 135%/49px roboto_condensed;
+	font: 125%/49px roboto_condensed;
 	height: 51px;
 }
 .call_us .trapezium{
 	float: right;
-	font: 305%/25px bebas_neue;
+	font: 270%/25px bebas_neue;
 	height: 51px;
 	text-align: center;
 	position: relative;
@@ -164,6 +164,9 @@ nav a:hover{
 .call_us .tel{
 	position: relative;
 	z-index: 1;
+}
+.call_us .tel a{
+	color: #fff;
 }
 .call_us .border{
 	position: absolute;
