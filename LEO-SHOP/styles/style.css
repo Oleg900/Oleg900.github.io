@@ -125,11 +125,13 @@ img{
 }
 .nav .left h1{
 	font-size: 36px;
+	font-family: Arial, Verdana, Tahoma;
 }
 .nav .left a{
 	margin-left: 5px;
 	padding: 5px 10px;
 	color: #656565;
+	font-family: Arial, Verdana, Tahoma;
 }
 .nav .left .first a{
 	margin-left: 47px;
