@@ -21,10 +21,10 @@
 	cursor: pointer;
 }
 .product .frame{
-	width: 100px;
+	width: auto;
 }
 .product:hover .frame{
-	width: 100px;
+	width: auto;
 }
 .product .discount{
 	background: url(../img/fon.png);
