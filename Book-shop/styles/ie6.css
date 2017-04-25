@@ -50,7 +50,7 @@
 	margin: 0 20px 32px;
 }
 .product .frame{
-	height: 148px;
+	height: auto;
 }
 .product .discount{
 	background: #f05356;
