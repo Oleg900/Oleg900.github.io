@@ -30,7 +30,8 @@ body{
 	width: 100%;
 	min-width: 1024px;
 	height: 100%;
-	font: 16px Arial;
+	font-size: 16px;
+	font-family: Arial;
 }
 ul{
 	list-style: none;
