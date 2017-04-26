@@ -157,7 +157,7 @@ a{
 }
 .header_banner .left{
 	float: left;
-	margin: 45px 0 0 9%;
+	margin: 45px 0 0 9% !important;
 }
 .header_banner .right{
 	float: right;
