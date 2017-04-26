@@ -1,26 +1,26 @@
 @font-face{
 	font-family: OpenSans;
-	src: url(../fonts/OpenSans.eot),
+	src: url(../fonts/OpenSans.eot?),
 		url(../fonts/OpenSans.ttf);
 }
 @font-face{
 	font-family: OpenSans-bold;
-	src: url(../fonts/OpenSans_bold.eot),
+	src: url(../fonts/OpenSans_bold.eot?),
 		url(../fonts/OpenSans_bold.ttf);
 }
 @font-face{
 	font-family: OpenSans-light;
-	src: url(../fonts/OpenSans_light.eot),
+	src: url(../fonts/OpenSans_light.eot?),
 		url(../fonts/OpenSans_light.ttf);
 }
 @font-face{
 	font-family: OpenSans-semibold;
-	src: url(../fonts/OpenSans_semibold.eot),
+	src: url(../fonts/OpenSans_semibold.eot?),
 		url(../fonts/OpenSans_semibold.ttf);
 }
 @font-face{
 	font-family: FontAwesome;
-	src: url(../fonts/FontAwesome.eot),
+	src: url(../fonts/FontAwesome.eot?),
 		url(../fonts/FontAwesome.ttf);
 }
 /* ОБЩЕЕ */
