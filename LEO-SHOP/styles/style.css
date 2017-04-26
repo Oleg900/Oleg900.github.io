@@ -1,11 +1,13 @@
 @font-face{
 	font-family: OpenSans;
+	src: url('../fonts/OpenSans.otf');
 	src: url('../fonts/OpenSans.eot?') format('eot'),
 		url('../fonts/OpenSans.ttf') format('truetype'),
 		url('../fonts/OpenSans.woff') format('woff');
 }
 @font-face{
 	font-family: OpenSans-bold;
+	src: url('../fonts/OpenSans_bold.otf');
 	src: url('../fonts/OpenSans_bold.eot?') format('eot'),
 		url('../fonts/OpenSans_bold.ttf') format('truetype');
 }
