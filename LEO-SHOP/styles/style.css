@@ -1,27 +1,27 @@
 @font-face{
 	font-family: OpenSans;
-	src: url(../fonts/OpenSans.eot?),
-		url(../fonts/OpenSans.ttf);
+	src: url(../fonts/OpenSans.eot?) format('eot'),
+		url(../fonts/OpenSans.ttf) format('truetype');
 }
 @font-face{
 	font-family: OpenSans-bold;
-	src: url(../fonts/OpenSans_bold.eot?),
-		url(../fonts/OpenSans_bold.ttf);
+	src: url(../fonts/OpenSans_bold.eot?) format('eot'),
+		url(../fonts/OpenSans_bold.ttf) format('truetype');
 }
 @font-face{
 	font-family: OpenSans-light;
-	src: url(../fonts/OpenSans_light.eot?),
-		url(../fonts/OpenSans_light.ttf);
+	src: url(../fonts/OpenSans_light.eot?) format('eot'),
+		url(../fonts/OpenSans_light.ttf) format('truetype');
 }
 @font-face{
 	font-family: OpenSans-semibold;
-	src: url(../fonts/OpenSans_semibold.eot?),
-		url(../fonts/OpenSans_semibold.ttf);
+	src: url(../fonts/OpenSans_semibold.eot?) format('eot'),
+		url(../fonts/OpenSans_semibold.ttf) format('truetype');
 }
 @font-face{
 	font-family: FontAwesome;
-	src: url(../fonts/FontAwesome.eot?),
-		url(../fonts/FontAwesome.ttf);
+	src: url(../fonts/FontAwesome.eot?) format('eot'),
+		url(../fonts/FontAwesome.ttf) format('truetype');
 }
 /* ОБЩЕЕ */
 *{
@@ -118,7 +118,7 @@ img{
 	width: 1024px;
 	height: 107px;
 	margin: auto;
-	font: 14px OpenSans-bold, Arial;
+	font: 14px OpenSans-bold;
 	color: #656565;
 }
 .nav .left, .nav .left h1, .nav .left ul, .nav .left li, .nav .right form, .nav .right ul, .nav .right li{
