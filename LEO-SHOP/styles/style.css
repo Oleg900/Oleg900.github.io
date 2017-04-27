@@ -1,30 +1,27 @@
 @font-face{
 	font-family: OpenSans;
-	src: url('../fonts/OpenSans.otf');
-	src: url('../fonts/OpenSans.eot?') format('eot'),
-		url('../fonts/OpenSans.ttf') format('truetype'),
-		url('../fonts/OpenSans.woff') format('woff');
+	src: url('../fonts/OpenSans.eot?'),
+		url('../fonts/OpenSans.ttf');
 }
 @font-face{
 	font-family: OpenSans-bold;
-	src: url('../fonts/OpenSans_bold.otf');
-	src: url('../fonts/OpenSans_bold.eot?') format('eot'),
-		url('../fonts/OpenSans_bold.ttf') format('truetype');
+	src: url('../fonts/OpenSans_bold.eot?'),
+		url('../fonts/OpenSans_bold.ttf');
 }
 @font-face{
 	font-family: OpenSans-light;
-	src: url('../fonts/OpenSans_light.eot?') format('eot'),
-		url('../fonts/OpenSans_light.ttf') format('truetype');
+	src: url('../fonts/OpenSans_light.eot?'),
+		url('../fonts/OpenSans_light.ttf');
 }
 @font-face{
 	font-family: OpenSans-semibold;
-	src: url('../fonts/OpenSans_semibold.eot?') format('eot'),
-		url('../fonts/OpenSans_semibold.ttf') format('truetype');
+	src: url('../fonts/OpenSans_semibold.eot?'),
+		url('../fonts/OpenSans_semibold.ttf');
 }
 @font-face{
 	font-family: FontAwesome;
-	src: url('../fonts/FontAwesome.eot?') format('eot'),
-		url('../fonts/FontAwesome.ttf') format('truetype');
+	src: url('../fonts/FontAwesome.eot?'),
+		url('../fonts/FontAwesome.ttf');
 }
 /* ОБЩЕЕ */
 *{
