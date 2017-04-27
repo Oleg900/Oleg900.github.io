@@ -1,32 +1,32 @@
 @font-face{
 	font-family: bebas_neue;
-	src: url('../fonts/bebas_neue.eot?') format('eot'),
-		url('../fonts/bebas_neue.otf');
+	src: url('../fonts/bebas_neue.eot?'),
+		url('../fonts/bebas_neue.ttf');
 }
 @font-face{
 	font-family: bebas_neue_bold;
-	src: url('../fonts/bebas_neue_bold.eot?') format('eot'),
-		url('../fonts/bebas_neue_bold.otf');
+	src: url('../fonts/bebas_neue_bold.eot?'),
+		url('../fonts/bebas_neue_bold.ttf');
 }
 @font-face{
 	font-family: eras_demi_itc;
-	src: url('../fonts/eras_demi_itc.eot?') format('eot'),
-		url('../fonts/eras_demi_itc.otf');
+	src: url('../fonts/eras_demi_itc.eot?'),
+		url('../fonts/eras_demi_itc.ttf');
 }
 @font-face{
 	font-family: roboto_condensed;
-	src: url('../fonts/roboto_condensed.eot?') format('eot'),
-		url('../fonts/roboto_condensed.otf');
+	src: url('../fonts/roboto_condensed.eot?'),
+		url('../fonts/roboto_condensed.ttf');
 }
 @font-face{
 	font-family: roboto_condensed_bold;
-	src: url('../fonts/roboto_condensed_bold.eot?') format('eot'),
-		url('../fonts/roboto_condensed_bold.otf');
+	src: url('../fonts/roboto_condensed_bold.eot?'),
+		url('../fonts/roboto_condensed_bold.ttf');
 }
 @font-face{
 	font-family: roboto_condensed_light;
-	src: url('../fonts/roboto_condensed_light.eot?') format('eot'),
-		url('../fonts/roboto_condensed_light.otf');
+	src: url('../fonts/roboto_condensed_light.eot?'),
+		url('../fonts/roboto_condensed_light.ttf');
 }
 /* ОБЩЕЕ */
 *{
