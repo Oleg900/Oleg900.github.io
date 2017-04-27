@@ -10,7 +10,8 @@
 }
 @font-face{
 	font-family: OpenSans-light;
-	src: url('../fonts/OpenSans_light.ttf');
+	src: url('../fonts/OpenSans_light.ttf'),
+		url('../fonts/OpenSans_light.woff');
 }
 @font-face{
 	font-family: OpenSans-semibold;
