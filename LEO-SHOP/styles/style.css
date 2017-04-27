@@ -94,6 +94,7 @@ img{
 }
 .settings .left option{
 	width: auto;
+	background: #4cb1ca;
 }
 .settings .right{
 	float: right;
