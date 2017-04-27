@@ -1,23 +1,28 @@
 /* Добавление шрифтов */
 @font-face{
 	font-family: Domine bold;
-	src: url(../fonts/Domine_Bold.ttf);
+	src: url('../fonts/Domine_Bold.eot?'),
+		url('../fonts/Domine_Bold.ttf');
 }
 @font-face{
 	font-family: OpenSans;
-	src: url(../fonts/OpenSans.ttf);
+	src: url('../fonts/OpenSans.eot?'),
+		url('../fonts/OpenSans.ttf');
 }
 @font-face{
 	font-family: OpenSans bold;
-	src: url(../fonts/OpenSans_bold.ttf);
+	src: url('../fonts/OpenSans_bold.eot?'),
+		url('../fonts/OpenSans_bold.ttf');
 }
 @font-face{
 	font-family: Montserrat bold;
-	src: url(../fonts/Montserrat_Bold.ttf);
+	src: url('../fonts/Montserrat_Bold.eot?'),
+		url('../fonts/Montserrat_Bold.ttf');
 }
 @font-face{
 	font-family: Montserrat regular;
-	src: url(../fonts/Montserrat_Regular.ttf);
+	src: url('../fonts/Montserrat_Regular.eot?'),
+		url('../fonts/Montserrat_Regular.ttf');
 }
 /* Общее для всего документа */
 body{
