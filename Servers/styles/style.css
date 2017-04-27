@@ -1,26 +1,26 @@
 @font-face{
 	font-family: OpenSans;
-	src: url(../fonts/OpenSans.ttf);
+	src: url('../fonts/OpenSans.eot');
+	src: url('../fonts/OpenSans.woff'),
+		url('../fonts/OpenSans.ttf');
 }
 @font-face{
 	font-family: OpenSans-bold;
-	src: url(../fonts/OpenSans_bold.ttf);
+	src: url('../fonts/OpenSans_bold.eot');
+	src: url('../fonts/OpenSans_bold.woff'),
+		url('../fonts/OpenSans_bold.ttf');
 }
 @font-face{
 	font-family: OpenSans-light;
-	src: url(../fonts/OpenSans_light.ttf);
+	src: url('../fonts/OpenSans_light.eot');
+	src: url('../fonts/OpenSans_light.woff'),
+		url('../fonts/OpenSans_light.ttf');
 }
 @font-face{
 	font-family: OpenSans-semibold;
-	src: url(../fonts/OpenSans_semibold.ttf);
-}
-@font-face{
-	font-family: KozGoPro-regular;
-	src: url(../fonts/KozGoPro_regular.otf);
-}
-@font-face{
-	font-family: KozGoPro-bold;
-	src: url(../fonts/KozGoPro_bold.otf);
+	src: url('../fonts/OpenSans_semibold.eot');
+	src: url('../fonts/OpenSans_semibold.woff'),
+		url('../fonts/OpenSans_semibold.ttf');
 }
 /* Общее */
 body{
@@ -496,12 +496,12 @@ a{
 }
 .footer .bottom p{
 	float: left;
-	font: 12px KozGoPro-regular;
+	font: 12px OpenSans;
 	color: #565656;
 }
 .footer .bottom .last{
 	float: right;
 }
 .footer .bottom span{
-	font-family: KozGoPro-bold;
+	font-family: OpenSans-bold;
 }		
