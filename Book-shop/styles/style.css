@@ -1,11 +1,13 @@
 ﻿/* ПОДКЛЮЧАЕМ ШРИФТЫ */
 @font-face{
 	font-family: helveticaLTStd_roman;
+	src: url('../fonts/helveticaLTStd_roman.eot');
 	src: url('../fonts/helveticaLTStd_roman.woff'),
 		url('../fonts/helveticaLTStd_roman.ttf');
 }
 @font-face{
 	font-family: helveticaLTStd_light;
+	src: url('../fonts/helveticaLTStd_light.eot');
 	src: url('../fonts/helveticaLTStd_light.woff'),
 		url('../fonts/helveticaLTStd_light.ttf');
 }
