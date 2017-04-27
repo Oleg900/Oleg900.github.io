@@ -1,31 +1,38 @@
 ﻿/* ПОДКЛЮЧАЕМ ШРИФТЫ */
 @font-face{
 	font-family: helveticaLTStd_roman;
-	src: url(../fonts/helveticaLTStd_roman.otf);
+	src: url(../fonts/helveticaLTStd_roman.woff),
+		url(../fonts/helveticaLTStd_roman.ttf);
 }
 @font-face{
 	font-family: helveticaLTStd_light;
-	src: url(../fonts/helveticaLTStd_light.otf);
+	src: url(../fonts/helveticaLTStd_light.woff),
+		url(../fonts/helveticaLTStd_light.ttf);
 }
 @font-face{
 	font-family: segoeWP;
-	src: url(../fonts/segoeWP.ttf);
+	src: url(../fonts/segoeWP.woff),
+		url(../fonts/segoeWP.ttf);
 }
 @font-face{
 	font-family: segoeWP_bold;
-	src: url(../fonts/segoeWP_bold.ttf);
+	src: url(../fonts/segoeWP_bold.woff),
+		url(../fonts/segoeWP_bold.ttf);
 }
 @font-face{
 	font-family: segoeWP_light;
-	src: url(../fonts/segoeWP_light.ttf);
+	src: url(../fonts/segoeWP_light.woff),
+		url(../fonts/segoeWP_light.ttf);
 }
 @font-face{
 	font-family: segoeWP_semibold;
-	src: url(../fonts/segoeWP_semibold.ttf);
+	src: url(../fonts/segoeWP_semibold.woff),
+		url(../fonts/segoeWP_semibold.ttf);
 }
 @font-face{
 	font-family: segoeWP_semilight;
-	src: url(../fonts/segoeWP_semilight.ttf);
+	src: url(../fonts/segoeWP_semilight.woff),
+		url(../fonts/segoeWP_semilight.ttf);
 }
 /* ОБЩИЕ СВОЙСТВА */
 *{
@@ -369,6 +376,9 @@ img{
 	padding: 5px;
 	margin: auto;
 }
+.product .frame img{
+	width: 100%;
+}
 .product p, .product .frame{
 	-webkit-transition: .4s ease-out;
 	-o-transition: .4s ease-out;
@@ -377,9 +387,6 @@ img{
 }
 .product:hover .frame{
 	width: 97px;
-}
-.product .frame img{
-	width: 100%;
 }
 .product .white{
 	box-shadow: 0 0 3px 4px #d6d6d6;
