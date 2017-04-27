@@ -5,13 +5,13 @@
 }
 @font-face{
 	font-family: OpenSans-bold;
-	src: url('../fonts/OpenSans_bold.ttf'),
-		url('../fonts/OpenSans_bold.woff');
+	src: url('../fonts/OpenSans_bold.woff'),
+		url('../fonts/OpenSans_bold.ttf');
 }
 @font-face{
 	font-family: OpenSans-light;
-	src: url('../fonts/OpenSans_light.ttf'),
-		url('../fonts/OpenSans_light.woff');
+	src: url('../fonts/OpenSans_light.woff'),
+		url('../fonts/OpenSans_light.ttf');
 }
 @font-face{
 	font-family: OpenSans-semibold;
