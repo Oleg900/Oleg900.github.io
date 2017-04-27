@@ -11,27 +11,32 @@
 }
 @font-face{
 	font-family: segoeWP;
-	src: url(../fonts/segoeWP.woff),
+	src: url(../fonts/segoeWP.eot),
+		url(../fonts/segoeWP.woff),
 		url(../fonts/segoeWP.ttf);
 }
 @font-face{
 	font-family: segoeWP_bold;
-	src: url(../fonts/segoeWP_bold.woff),
+	src: url(../fonts/segoeWP_bold.eot),
+		url(../fonts/segoeWP_bold.woff),
 		url(../fonts/segoeWP_bold.ttf);
 }
 @font-face{
 	font-family: segoeWP_light;
-	src: url(../fonts/segoeWP_light.woff),
+	src: url(../fonts/segoeWP_light.eot),
+		url(../fonts/segoeWP_light.woff),
 		url(../fonts/segoeWP_light.ttf);
 }
 @font-face{
 	font-family: segoeWP_semibold;
-	src: url(../fonts/segoeWP_semibold.woff),
+	src: url(../fonts/segoeWP_semibold.eot),
+		url(../fonts/segoeWP_semibold.woff),
 		url(../fonts/segoeWP_semibold.ttf);
 }
 @font-face{
 	font-family: segoeWP_semilight;
-	src: url(../fonts/segoeWP_semilight.woff),
+	src: url(../fonts/segoeWP_semilight.eot),
+		url(../fonts/segoeWP_semilight.woff),
 		url(../fonts/segoeWP_semilight.ttf);
 }
 /* ОБЩИЕ СВОЙСТВА */
