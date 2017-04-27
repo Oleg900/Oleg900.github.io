@@ -15,11 +15,13 @@
 }
 @font-face{
 	font-family: OpenSans-semibold;
-	src: url('../fonts/OpenSans_semibold.ttf');
+	src: url('../fonts/OpenSans_semibold.woff'),
+		url('../fonts/OpenSans_semibold.ttf');
 }
 @font-face{
 	font-family: FontAwesome;
-	src: url('../fonts/FontAwesome.ttf');
+	src: url('../fonts/FontAwesome.woff'),
+		url('../fonts/FontAwesome.ttf');
 }
 /* ОБЩЕЕ */
 *{
