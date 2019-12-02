@@ -1,0 +1,45 @@
+@media screen and (max-width: 1070px) {
+    .nav_ul a {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .nav {
+        position: fixed;
+        top: 70px;
+    }
+
+    .nav label {
+        background: url(../img/menu.svg) no-repeat center #a4a8f2;
+        width: 40px;
+        height: 40px;
+        display: block;
+    }
+    
+    .nav input:checked ~ ul {
+        left: 0;
+        transition: left 0.5s;
+    }
+    .nav input:checked ~ label {
+        background: url(../img/menu_open.svg) no-repeat center #a4a8f2;
+
+    }
+
+    .nav_ul {
+        width: 305px;
+        background: rgba(164, 168, 242, 0.7);
+        margin: 0;
+        border-top-left-radius: 0;
+        position: absolute;
+        left: -1000px;
+        transition: left 0.5s;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .nav_ul li {
+        padding: 10px 0;
+    }
+    
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+	<title>Сайт-визитка</title>
+	<link rel="stylesheet" href="style/styles.css" type="text/css"/>
+	<link rel="stylesheet" href="style/media.css" type="text/css"/>
+</head>
+<body>
+	<div>
+		<header>
+			<h1>Олег Ириков. Начинающий Front-end разработчик</h1>
+		</header>
+		<!--Вынес nav за пределы header для реализации position: sticky -->
+		<nav class="nav">
+			<input type="checkbox" id="menu">
+			<label for="menu"></label>
+			
+			<ul class="nav_ul">
+				<li><a href="#about">Обо мне</a></li>
+				<li><a href="#education">Образование</a></li>
+				<li><a href="#hobby">Хобби</a></li>
+				<li><a href="#developer">Как я&nbsp;становился разработчиком</a></li>
+				<li><a href="#experience">Опыт работы</a></li>
+				<li><a href="#footer">Контакты</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="about content">
+				<h2 id="about">Обо мне</h2>
+				<div class="about_content">
+					<div><img class="about_image" src="images/Oleg.jpg" alt="Моё фото"/></div>
+					<div>
+						<p>Меня зовут Олег, мне 28. Родился в&nbsp;Казахстане, в&nbsp;возрасте 7&nbsp;лет вместе с 
+							родителями переехали в&nbsp;Москву.</p>
+					</div>
+				</div>
+			</div>
+			<div class="education content">
+				<h2 id="education">Образование</h2>
+				<p>Образование среднее, после школы поступил в&nbsp;<strong>Государственный Университет Управления</strong>, 
+					но&nbsp;после первого курса решил, что специальность мне не&nbsp;подходит, и&nbsp;прекратил обучение.</p>
+			</div>
+			<div class="hobby content">
+				<h2 id="hobby">Хобби</h2>
+				<p>Аквариумистика, растениеводство, духовное развитие посредством йоги.</p>
+			</div>
+			<div class="developer content">
+				<h2 id="developer">Как я&nbsp;становился разработчиком</h2>
+				<ul>
+					<li><strong>2016г</strong>&nbsp;&mdash; решил стать <strong>верстальщиком</strong>, сделал несколько работ, но&nbsp;временно забросил это направление</li>
+					<li><strong>22.10.2019</strong>&nbsp;&mdash; записался на&nbsp;курс <strong>&laquo;Front-end разработчик&raquo;</strong> от&nbsp;<strong>SkillFactory</strong></li>
+					<li><strong>05.11.2019</strong>&nbsp;&mdash; начал изучение <strong>&laquo;HTML&raquo;</strong></li>
+					<li><strong>11.11.2019</strong>&nbsp;&mdash; начал изучать <strong>&laquo;CSS&raquo;</strong></li>
+					<li><strong>18.11.2019</strong>&nbsp;&mdash; начал изучать <strong>&laquo;Flexbox&raquo;</strong></li>
+				</ul>
+			</div>
+			<div class="experience content">
+				<h2 id="experience">Опыт работы</h2>
+				<p>Последние несколько лет работаю <em>продавцом-консультантом</em> в&nbsp;оконной компании.</p>
+				<p>Выполнил несколько заказов по&nbsp;вёрстке сайтов на&nbsp;фрилансе.</p>
+				<h4>Несколько работ из&nbsp;моего прошлого</h4>
+				<div class="experience_span"><span>Изображения кликабельны</span></div>
+				<div class="portfolio">
+					<a href="https://oleg900.github.io/Book-shop/" target="_blank"><img src="images/portfolio_1.jpg" alt="Портфолио"></a>
+					<a href="https://oleg900.github.io/EH" target="_blank"><img src="images/portfolio_2.jpg" alt="Портфолио"></a>
+					<a href="https://oleg900.github.io/Freelancer/" target="_blank"><img src="images/portfolio_3.jpg" alt="Портфолио"></a>
+					<a href="https://oleg900.github.io/Servers/" target="_blank"><img src="images/portfolio_4.jpg" alt="Портфолио"></a>
+				</div>
+			</div>
+	</main>
+	</div>
+	<footer id="footer">
+		<h3>Контакты</h3>
+		<div>
+			<p>&copy;&nbsp;Все права защищены.</p>
+			<p class="footer_phone">Телефон: <a href="tel:7777777">7777777</a></p>
+			<p class="footer_mail">E-mail: <a href="mailto:Oleg90s@mail.ru">Oleg90s@mail.ru</a></p>
+		</div>
+	</footer>
+</body>
+</html>
