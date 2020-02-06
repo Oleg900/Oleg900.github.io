@@ -83,6 +83,15 @@
 
             arrowBack.style.left = (document.body.clientWidth - sl.clientWidth) / 2 + "px";
             arrowNext.style.right = (document.body.clientWidth - sl.clientWidth) / 2 + "px";
+
+            if (document.body.clientWidth <= 683) {
+                arrowBack.style.top = -slide[0].clientHeight / 3 + "px";
+                arrowNext.style.top = -slide[0].clientHeight / 3 + "px";
+            } else {
+                arrowBack.style.top = "";
+                arrowNext.style.top = "";
+            }
+
         }
 
     }
@@ -119,9 +128,9 @@
     sliderAdaptive();
 
     // Автоматическое пролистывание слайдов
-    let n = setInterval(sliderNext, 5000);
-    sliderContainer.addEventListener("mouseover", () => clearInterval(n));
-    sliderContainer.addEventListener("mouseout", () => n = setInterval(sliderNext, 5000));
+    // let n = setInterval(sliderNext, 5000);
+    // sliderContainer.addEventListener("mouseover", () => clearInterval(n));
+    // sliderContainer.addEventListener("mouseout", () => n = setInterval(sliderNext, 5000));
 
     // Задаю ширину слайдов при загрузке страницы
     slide.forEach(el => el.style.width = sliderContainer.clientWidth + "px");

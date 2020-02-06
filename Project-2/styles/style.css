@@ -325,7 +325,7 @@ ul {
     margin-top: 70px;
 }
 
-.projects_completed-projects h2 {
+.projects_completed-projects h2, .projects-slide-h h2 {
     width: 253px;
     margin-bottom: 34px;
     font-family: "Yeseva One";
@@ -336,7 +336,7 @@ ul {
     color: #E3B873;
 }
 
-.projects_completed-projects h2::after {
+.projects_completed-projects h2::after, .projects-slide-h h2::after {
     content: "";
     display: inline-block;
     width: 92px;
@@ -345,7 +345,7 @@ ul {
     border-top: 1px solid #E3B873;
 }
 
-.projects_text {
+.projects_text, .projects_text-h {
     font-size: 14px;
     line-height: 27px;
     color: #fff;
@@ -464,6 +464,10 @@ ul {
     border-bottom: 1px solid #E3B873;
     padding-bottom: 7px;
     transition: .2s;
+}
+
+.projects-slide-h {
+    display: none;
 }
 
 .control {
@@ -1139,6 +1143,22 @@ ul {
        padding-bottom: 320px;
     }
 
+    .projects-slide-h {
+        position: absolute;
+        display: block;
+        left: 15%;
+        width: 80%;
+    }
+
+    .projects-slider {
+        margin-top: 180px;
+    }
+
+    .projects_completed-projects h2,
+    .projects_text {
+        display: none;
+    }
+
     .projects-slide {
         flex-direction: column;
     }
@@ -1321,11 +1341,15 @@ ul {
         right: 5%;
     }
 
+    .projects-slide-h h2::after,
     .projects_slider-list {
         display: none;
     }
 
-    .projects_completed-projects h2::after,
+    .projects-slider {
+        margin-top: 200px;
+    }
+
     .projects_slider {
         display: none;
     }
@@ -1339,7 +1363,7 @@ ul {
         width: 100%;
     }
 
-    .projects_text {
+    .projects_text-h {
         width: 85%;
         margin: 0 auto;
         text-align: center;
@@ -1349,7 +1373,12 @@ ul {
         width: 100%;
     }
 
-    .projects_completed-projects h2 {
+    .projects-slide-h {
+        left: 0;
+        width: 100%;
+    }
+
+    .projects-slide-h h2 {
         margin: 0 auto 34px;
         text-align: center;
     }
