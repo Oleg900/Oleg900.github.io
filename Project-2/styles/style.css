@@ -297,6 +297,22 @@ ul {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.projects-slider {
+    display: flex;
+    position: relative;
+    transition: left .5s;
+    left: 0;
+    flex-shrink: 0;
+}
+
+.projects-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 1171px;
 }
 
 .projects_slider-images--media {
@@ -304,7 +320,8 @@ ul {
 }
 
 .projects_completed-projects {
-    width: 442px;
+    max-width: 442px;
+    width: 41%;
     margin-top: 70px;
 }
 
@@ -344,7 +361,7 @@ ul {
 }
 
 .projects_description div {
-    width: 220px;
+    width: 50%;
     margin-top: 34px;
 }
 
@@ -354,6 +371,12 @@ ul {
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
+}
+
+.projects_slaider-control {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .projects_slaider-control span {
@@ -404,17 +427,22 @@ ul {
 .projects_slider {
     max-width: 679px;
     width: 59%;
+    margin-left: 40px;
+    margin-top: 50px;
 }
 
 .projects_slider-list {
-    width: 91.75%;
+    width: 52%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 38px;
+    position: absolute;
+    top: 0;
+    right: 4%;
 }
 
-.projects_slider-list a {
+.projects_slider-list span {
     cursor: pointer;
+    margin-right: 15px;
     padding-bottom: 8px;
     font-family: "Yeseva One";
     font-size: 14px;
@@ -424,7 +452,14 @@ ul {
     transition: .2s;
 }
 
-.projects_slider-list a:hover {
+.projects_slider-list span:hover {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 7px;
+    transition: .2s;
+}
+
+.projects_slider-list .active {
     color: #E3B873;
     border-bottom: 1px solid #E3B873;
     padding-bottom: 7px;
@@ -1104,25 +1139,17 @@ ul {
        padding-bottom: 320px;
     }
 
-    .projects_slider-list {
-        width: 100%;
-    }
-
-    .projects_wrapper {
+    .projects-slide {
         flex-direction: column;
     }
 
-    .projects_completed-projects {
-        width: 70%;
-        margin: 0 auto 20px;
+    .projects_wrapper {
+        width: 93%;
+        margin: 0 auto;
     }
 
     .projects_description {
         width: 100%;
-    }
-
-    .projects_description div {
-        width: 50%;
     }
 
     .projects_slider {
@@ -1130,43 +1157,45 @@ ul {
         margin: 0 auto;
     }
 
-    .projects_slaider-control {
-        text-align: center;
+    .projects_completed-projects {
+        width: 70%;
+        max-width: 700px;
+        margin: 0 auto 60px;
     }
 
-    .projects_slider-images,
-    .projects_slider-images--media{
-        position: relative;
+    .projects_slider-list {
+        width: 80%;
+        top: 46%;
+        left: 11%;
     }
 
-    .projects_slider-images::before,
-    .projects_slider-images::after,
-    .projects_slider-images--media::before,
-    .projects_slider-images--media::after {
-        content: "";
+    .projects_slaider-control{
+        width: 100%;
+        height: 300px;
+    }
+
+    .projects_slider-buttons {
+        display: none;
+    }
+
+    .projects_slider-arrow-back,
+    .projects_slider-arrow-next {
         position: absolute;
         width: 36px;
         height: 36px;
         border-radius: 50%;
         cursor: pointer;
+        top: 8%;
     }
-
-    .projects_slider-images::before,
-    .projects_slider-images--media::before {
+    
+    .projects_slider-arrow-back {
         background: url(../img/projects_slider_arrow_back_media.svg) no-repeat center center #E3B873;
-        left: 5%;
-        top: 49%;
+        left: 15%;
     }
 
-    .projects_slider-images::after,
-    .projects_slider-images--media::after {
+    .projects_slider-arrow-next {
         background: url(../img/projects_slider_arrow_next_media.svg) no-repeat center center #E3B873;
-        right: 5%;
-        top: 49%;
-    }
-
-    .projects_slaider-control {
-        display: none;
+        right: 15%;
     }
 
     .control {
@@ -1284,9 +1313,16 @@ ul {
         padding: 40px 0 0;
     }
 
-    .projects_completed-projects h2 {
-        margin: 0 auto 34px;
-        text-align: center;
+    .projects_slider-arrow-back {
+        left: 5%;
+    }
+
+    .projects_slider-arrow-next {
+        right: 5%;
+    }
+
+    .projects_slider-list {
+        display: none;
     }
 
     .projects_completed-projects h2::after,
@@ -1294,13 +1330,13 @@ ul {
         display: none;
     }
 
-    .projects_completed-projects {
-        width: 100%;
-    }
-
     .projects_slider-images--media {
         display: block;
         margin: 36px auto;
+    }
+
+    .projects_completed-projects {
+        width: 100%;
     }
 
     .projects_text {
@@ -1309,12 +1345,17 @@ ul {
         text-align: center;
     }
 
-    .projects_description div {
-        width: 50%;
-    }
-
     .projects_description {
         width: 100%;
+    }
+
+    .projects_completed-projects h2 {
+        margin: 0 auto 34px;
+        text-align: center;
+    }
+
+    .projects_slider-arrow-back, .projects_slider-arrow-next {
+        top: -100%;
     }
 
     .control {
