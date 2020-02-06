@@ -128,9 +128,9 @@
     sliderAdaptive();
 
     // Автоматическое пролистывание слайдов
-    // let n = setInterval(sliderNext, 5000);
-    // sliderContainer.addEventListener("mouseover", () => clearInterval(n));
-    // sliderContainer.addEventListener("mouseout", () => n = setInterval(sliderNext, 5000));
+    let n = setInterval(sliderNext, 5000);
+    sliderContainer.addEventListener("mouseover", () => clearInterval(n));
+    sliderContainer.addEventListener("mouseout", () => n = setInterval(sliderNext, 5000));
 
     // Задаю ширину слайдов при загрузке страницы
     slide.forEach(el => el.style.width = sliderContainer.clientWidth + "px");
