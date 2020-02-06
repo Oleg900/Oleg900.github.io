@@ -1255,14 +1255,14 @@ ul {
     }
 
     .nav ul {
-        background: rgba(0,0,0,.5);
+        background: rgba(0,0,0,.7);
         margin: 0;
         position: fixed;
         left: -1000px;
         top: 105px;
         transition: left 0.5s;
         flex-direction: column;
-        z-index: 3;
+        z-index: 5;
     }
 
     .nav ul li,
