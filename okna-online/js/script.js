@@ -213,6 +213,7 @@ function formHidden() {
   }
 }
 
+/* 
 function thanks() {
   let form = document.querySelector(".thanks_container");
 
@@ -223,3 +224,4 @@ function thanks() {
     form.classList.add("thanks_container_active");
   }
 }
+*/
