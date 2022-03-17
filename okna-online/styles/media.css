@@ -447,6 +447,10 @@
     width: 460px;
   }
 
+  .feedback {
+    width: 300px;
+  }
+
   .form_hidden {
     width: 370px;
     margin: 50px auto;
@@ -884,6 +888,10 @@
 @media (max-width : 480px) {
   .container {
     width: 300px;
+  }
+
+  .feedback {
+    width: 170px;
   }
 
   .form_hidden {
