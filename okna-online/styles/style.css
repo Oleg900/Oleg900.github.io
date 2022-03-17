@@ -33,7 +33,23 @@ h2 {
 
   /* ШАПКА */
 
-.form_hidden_container, .thanks_container {
+.feedback_form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feedback_form textarea {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.feedback_form input:first-child {
+  height: 23px;
+}
+
+
+.form_hidden_container, .thanks_container, .feedback_container {
   position: fixed;
   top: 0;
   left: -9999px;
@@ -52,14 +68,14 @@ h2 {
   text-align: center;
 }
 
-.form_hidden_container_active, .thanks_container_active {
+.form_hidden_container_active, .thanks_container_active, .feedback_container_active {
   left: 0;
   right: 0;
   bottom: 0;
   background: rgba(0,0,0,0.85);
 }
 
-.form_hidden_close, .thanks_close{
+.form_hidden_close, .thanks_close, .feedback_close{
   background: url(../img/menu_open.svg) #C1DAFF center no-repeat;
   width: 45px;
   height: 45px;
@@ -70,7 +86,7 @@ h2 {
   cursor: pointer;
 }
 
-.form_hidden, .thanks {
+.form_hidden, .thanks, .feedback {
   width: 570px;
   padding: 25px;
   background: #C1DAFF;
