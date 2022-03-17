@@ -10,6 +10,16 @@
   </head>
   <body id="main">
     <div class="blackout"></div>
+    <div class="feedback_container">
+      <div class="feedback">
+        <div class="feedback_close" onclick="feedback()"></div>
+        <form class="feedback_form" action="index.html" method="post">
+          <input type="email" name="" value="" placeholder="Почта" required>
+          <textarea name="name" rows="8" cols="80" placeholder="Ваше сообщение" required></textarea>
+          <input type="submit" name="" value="Отправить" class="main_middle_left_action_submit">
+        </form>
+      </div>
+    </div>
     <div class="thanks_container">
       <div class="thanks">
         <div class="thanks_close" onclick="thanks()"></div>
@@ -672,7 +682,7 @@
         </div>
         <div class="contacts_text">
           <p>Наш офис находится по адресу м. Перово, ул. Кусковская, 20а</p>
-          <button type="button" name="button" class="main_header_contacts_button">Напишите нам</button>
+          <button type="button" name="button" class="main_header_contacts_button" onclick="feedback()">Напишите нам</button>
         </div>
         <div class="contacts_img">
           <img src="images/map.jpg" alt="Карта">
