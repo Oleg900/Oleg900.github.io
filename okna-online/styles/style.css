@@ -1199,6 +1199,26 @@ th {
   margin:  8px 0 15px 0;
 }
 
+/* Контакты */
+
+.contacts {
+  padding: 100px 0;
+  background: #F3F3F3;
+}
+
+.contacts p {
+  margin: 50px 0 35px 40px;
+}
+
+.contacts_img {
+  text-align: center;
+}
+
+.contacts img {
+  width: 100%;
+  max-width: 1007px;
+}
+
 /* Подвал */
 
 .footer {
