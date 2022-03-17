@@ -213,7 +213,7 @@ function formHidden() {
   }
 }
 
-/* 
+/*
 function thanks() {
   let form = document.querySelector(".thanks_container");
 
@@ -225,3 +225,14 @@ function thanks() {
   }
 }
 */
+
+function feedback() {
+  let form = document.querySelector(".feedback_container");
+
+  if (form.className == "feedback_container feedback_container_active") {
+    form.classList.remove("feedback_container_active");
+  }
+  else {
+    form.classList.add("feedback_container_active");
+  }
+}
