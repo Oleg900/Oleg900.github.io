@@ -1219,6 +1219,12 @@ th {
   max-width: 1007px;
 }
 
+.contacts_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Подвал */
 
 .footer {
