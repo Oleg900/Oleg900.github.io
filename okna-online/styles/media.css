@@ -397,6 +397,11 @@
     margin: 35px 0 20px;
   }
 
+  .contacts_text {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
 
   /* Подвал */
 
@@ -1120,7 +1125,7 @@
 
   .contacts p {
     font-size: 16px;
-    margin: 20px 0 20px;
+    margin: 20px 0 0;
   }
 
   /* Подвал */
